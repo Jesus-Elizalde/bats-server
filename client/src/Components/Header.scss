@@ -22,6 +22,12 @@
   @include u-padding-x(0);
   @include u-padding-y(1);
   position: absolute;
+  a {
+    color: color('primary');
+    &::visited{
+      color:inherit
+    }
+  }
 }
 
 .header__name {
